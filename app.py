@@ -537,10 +537,5 @@ else:
 # -------------------------
 st.markdown("---")
 st.subheader("Notes")
-st.markdown("""
-- AQI is approximated from `pollutant_avg` in this app when full pollutant-specific AQI formulas are not available.
-- For production-grade AQI use pollutant-specific breakpoints (CPCB/EPA) or serve a trained model via an API.
-- Optional packages (folium, streamlit-folium, geopy, plotly, requests) improve UX and live data.
-""")
-
 # End of app
+
